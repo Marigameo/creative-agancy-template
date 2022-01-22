@@ -1,3 +1,99 @@
-body {
-    background-color: aqua;
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* headers styles */
+header {
+    background-color: rgb(167, 242, 167);
+    display: flex;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* intro styles */
+.intro {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.feature-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feature-image img {
+    width: 350px;
+}
+
+/* about styles */
+
+.about {
+    text-align: center;
+}
+
+/* services section */
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-box {
+    width: 24%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: rgb(167, 242, 167);
+}
+
+/* portfolio section */
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio img {
+    width: 24%;
+    height: 200px;
+}
+
+/* contact styles */
+.contact {
+    text-align: center;
+}
+
+/* footer styles */
+footer {
+    height: 60px;
+    background-color: rgb(167, 242, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
